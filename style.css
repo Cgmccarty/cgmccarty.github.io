@@ -1,22 +1,24 @@
 html, body {
   font-family: sans-serif;
-  background-color: darkgrey;
+  background-color: lightgrey;
   color: #2441a4;
   letter-spacing: 1.5px;
 }
 
 html {
-  margin: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 img {
-  margin: 10px;
   max-width: 300px;
   max-height: 200px;
-}
-
-header {
-  border-bottom: 2px solid black;
 }
 
 h1, h2 {
@@ -34,13 +36,9 @@ h2 {
   margin-top: 30px;
 }
 
-a {
+.navlink {
   margin-left: 5px;
   margin-right: 5px;
-}
-
-header {
-
 }
 
 p {
