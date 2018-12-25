@@ -3,12 +3,21 @@ html, body {
   background-color: lightgrey;
   color: #2441a4;
   letter-spacing: 1.5px;
+  height: 100%;
 }
 
 html {
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 30px;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -24,12 +33,6 @@ img {
 h1, h2 {
   color: #122e6d;
   margin-bottom: 20px;
-}
-
-h1 {
-  padding-top: 100px;
-  padding-right: 68px;
-  margin-left: 13px;
 }
 
 h2 {
