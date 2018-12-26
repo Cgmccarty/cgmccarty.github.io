@@ -1,7 +1,11 @@
 html, body {
   font-family: sans-serif;
-  background-color: lightgrey;
-  color: #2441a4;
+  /* background-color: lightgrey; */
+  background-image: url("blogbackground3.jpg");
+  background-position: center;
+  background-repeat: repeat-x repeat-y;
+  background-size: cover;
+  color: lightgrey;
   letter-spacing: 1.5px;
   height: 100%;
 }
@@ -25,18 +29,22 @@ html {
     border-bottom-right-radius: 4px;
 }
 
+.port {
+    max-width: 400px;
+}
+
 img {
   max-width: 300px;
   max-height: 200px;
 }
 
 h1, h2 {
-  color: #122e6d;
+  color: #999;
   margin-bottom: 20px;
 }
 
-h2 {
-  margin-top: 30px;
+a {
+    color: #999;
 }
 
 .navlink {
