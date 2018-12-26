@@ -1,16 +1,16 @@
 html, body {
   font-family: sans-serif;
   /* background-color: lightgrey; */
-  background-image: url("blogbackground3.jpg");
-  background-position: center;
-  background-repeat: repeat-x repeat-y;
-  background-size: cover;
+  background-image: url("paintsvillelake.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1400px 2000px;
   color: lightgrey;
   letter-spacing: 1.5px;
   height: 100%;
 }
 
-html {
+body {
     margin-left: 50px;
     margin-right: 50px;
 }
