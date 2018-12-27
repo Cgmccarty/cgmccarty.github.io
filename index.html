@@ -2,22 +2,33 @@
 layout: page
 ---
 
+<div id="main">
     <header>
-      <div class="row mb-4">
-        <h1>Connor McCarty's Blog</h1>
-        <img src="./blogpicture.jpg" alt="Connor McCarty" width="150"/>
-        <img src="./connorandkaylyn.jpg" alt="Connor and Kaylyn" width="270"/>
-        <img src="./family.jpg" alt="Connor and Family" width="180"/>
-      </div>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block" src="blogpicture.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="connorandkaylyn.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="family.jpg" alt="Third slide">
+                </div>
+            </div>
+        </div>
     </header>
 
-    <h2>About Me</h2>
-    <p>Connor McCarty, here! A little about me... I was born in Morehead, KY, grew up in Winchester, KY, and now I live in Nicholasville, KY, with my girlfriend Kaylyn, and son, Kevin.
-      I have a twin brother, as well as a younger brother and sister. I have worked a lot of fast food, and a lot of retail...
-      but now I'm ready for bigger and better things! What made me most interested in programming is the logic of it. Computers
-      seem very sensible to me. I've always been a 3D thinker; sort of like creating a map to whatever is in front of you, but
-      in your head! I am a big horror movie buff (although, I'll watch just about anything), and I love to play video games in my spare time.</p>
+    <div class="card bg-dark mt-5">
+        <p class="card-body">Connor McCarty, here! A little about me... I was born in Morehead, KY, grew up in Winchester, KY, and now I live in Nicholasville, KY.
+            I have a twin brother, as well as a younger brother and sister. Hectic environments are not new to me. I have worked a lot of fast food, and a lot of retail...
+            but now I'm ready for bigger and better things! I am now a junior software developer after graduating from the Awesome Inc. U Bootcamp. I've always been a 3D
+            thinker; sort of like creating a map to whatever is in front of you, but in your head! I am a big horror movie buff (although,
+            I'll watch just about anything). When I am not working on my next project, I unwind with my Xbox.
+        </p>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <p class="card-body">Check out my blog if you're interested. It's just my thoughts on becoming a software developer, and the Awesome Inc. U Bootcamp.
+            and be sure to check out some of my projects while you're at it!
+        </p>
+    </div>
+</div>
