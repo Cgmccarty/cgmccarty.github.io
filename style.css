@@ -41,6 +41,10 @@ img {
     border-color: #343a40;
 }
 
+#quote {
+    margin: auto 0;
+}
+
 h1, h2 {
     margin-bottom: 20px;
 }
