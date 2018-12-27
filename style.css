@@ -1,11 +1,10 @@
 html, body {
   font-family: sans-serif;
-  /* background-color: lightgrey; */
   background-image: url("caverun.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 1400px 2000px;
-  color: lightgrey;
+  color: black;
   letter-spacing: 1.5px;
   height: 100%;
 }
@@ -39,7 +38,6 @@ img {
 }
 
 h1, h2 {
-  color: #999;
   margin-bottom: 20px;
 }
 

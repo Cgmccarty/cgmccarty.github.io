@@ -4,12 +4,11 @@ layout: page
 
 <div id="main">
 
-<h1 class="text-dark">Blog Posts</h1>
-
-<ul>
-  {% for post in site.posts %}
-    <a href="{{ post.url }}" class="text-dark">{{ post.title }}</a></br>
-  {% endfor %}
-</ul>
+    <div class="card col-sm-6 bg-dark">
+      <h1 class="card-header text-light">Blog Posts</h1>
+      {% for post in site.posts %}
+        <a href="{{ post.url }}" class="card-body text-light"> - {{ post.title }}</a></br>
+      {% endfor %}
+    </div>
 
 </div>
